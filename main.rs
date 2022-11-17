@@ -1,6 +1,8 @@
+#![warn(clippy::all, clippy::pedantic)]
 fn main(){
     let my_list = ["one","two","three","four"];
-    for num in &my_list {
+    for _num in &my_list {
+        println!("{ }",_num);
     }
     for i in 0..4 {
         println!("{ }",i);
