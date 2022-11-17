@@ -1,3 +1,4 @@
+// made clippy more sensitive to be sure the code is awesome
 #![warn(clippy::all, clippy::pedantic)]
 fn main(){
     let my_list = ["one","two","three","four"];
