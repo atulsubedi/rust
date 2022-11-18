@@ -1,4 +1,5 @@
 use std::io::stdin;
+// -> String denotes that it returns a string
 fn what_is_your_name() -> String{
     let mut your_name = String::new();
     stdin()
@@ -9,6 +10,7 @@ fn what_is_your_name() -> String{
 
 fn main(){
     println!("Hello, what's your name?");
+    // calling the function what is your name to store the result in name
     let name = what_is_your_name();
     println!("Hello, {}",name);
 }
