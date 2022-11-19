@@ -8,14 +8,17 @@ fn what_is_your_name() -> String{
     your_name
         .trim()
         .to_lowercase()
-
 } 
-
 
 fn main(){
     println!("Hello, what's your name?");
     // calling the function what is your name to store the result in name
     let name = what_is_your_name();
     println!("{:?}", name);
-    
+        
+ if name  == "atul"{
+    println!("Welcome");
+} else {
+    println!("Sorry, you are not on the list")
+}
 }
