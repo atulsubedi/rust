@@ -7,13 +7,20 @@ fn what_is_your_name() -> String{
         .expect("Failed to read line");
     your_name
         .trim()
-        .to_lowecase()
+        .to_lowercase()
+     //   if your_name == "atul"{
+      //      println!("Welcome");
+       // }else{
+        //    println!("Sorry, you are not on the list")
+       // }
+
 } 
+
 
 fn main(){
     println!("Hello, what's your name?");
     // calling the function what is your name to store the result in name
     let name = what_is_your_name();
     println!("{:?}", name);
-
+    
 }
