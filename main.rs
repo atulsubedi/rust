@@ -8,11 +8,6 @@ fn what_is_your_name() -> String{
     your_name
         .trim()
         .to_lowercase()
-        if your_name == "atul"{
-            println!("Welcome");
-        }else{
-            println!("Sorry, you are not on the list")
-        }
 
 } 
 
