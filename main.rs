@@ -2,9 +2,11 @@ use std::io::stdin;
 // -> String denotes that it returns a string
  
 fn main(){
-    let visitor_list : [&str;3] = ["atul","atulhl","hl"];
+    //let visitor_list : [&str;3] = ["atul","atulhl","hl"];
     // rust for loop operates on ranges rather than a set of numbers
-     
+    for i in 0..=10{
+        println!("{}",i)
+    } 
 
 }
 
