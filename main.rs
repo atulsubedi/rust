@@ -16,7 +16,7 @@ fn main(){
     let name = what_is_your_name();
     println!("{:?}", name);
         
- if name  == "atul"{
+ if name  == "atul" || name == "hl"{
     println!("Welcome");
 } else {
     println!("Sorry, you are not on the list")
