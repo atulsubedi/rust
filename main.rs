@@ -24,10 +24,11 @@ fn main(){
             allow_them_in = true;
         }
     } 
+    // check if your name is in the list to enter in the house
 if allow_them_in {
     println!("Welcome to tree house, {}",name);
 } else{
-    println!("Sorry, only hl allowed");
+    println!("Sorry, Person on the list are only allowed");
 }
 }
 
